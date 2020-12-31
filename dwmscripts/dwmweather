@@ -1,0 +1,5 @@
+#!/bin/bash
+
+weather=$(curl -s wttr.in/Casino?format=%t)
+icon=""
+printf " %s %s \n" "$icon " "$weather"
