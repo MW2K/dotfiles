@@ -137,7 +137,7 @@ visualizer_look = "+|"
 ##
 ## If you want to make sure that a part of the format is displayed only when
 ## certain tags are present, you can archieve it by grouping them with brackets,
-## e.g. '{%a - %t}' will be evaluated to 'ARTIST - TITLE' if both tags are
+## e.g. '{%a - %t}' will be evaluated to 'ARTIST -TITLE' if both tags are
 ## present or '' otherwise.  It is also possible to define a list of
 ## alternatives by providing several groups and separating them with '|',
 ## e.g. '{%t}|{%f}' will be evaluated to 'TITLE' or 'FILENAME' if the former is
@@ -353,13 +353,13 @@ execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%a
 #
 #cyclic_scrolling = no
 #
-#lyrics_fetchers = azlyrics, genius, sing365, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, zeneszoveg, internet
+lyrics_fetchers = azlyrics, genius, sing365, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, zeneszoveg, internet
 #
-#follow_now_playing_lyrics = no
+follow_now_playing_lyrics = no
 #
-#fetch_lyrics_for_current_song_in_background = no
+fetch_lyrics_for_current_song_in_background = yes
 #
-#store_lyrics_in_song_dir = no
+store_lyrics_in_song_dir = yes
 #
 #generate_win32_compatible_filenames = yes
 #
@@ -393,7 +393,7 @@ execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%a
 ##
 ## Note: You can define startup screen by choosing screen from the list above.
 ##
-#startup_screen = playlist
+startup_screen = media_library
 #
 ##
 ## Note: You can define startup slave screen by choosing screen from the list
@@ -543,5 +543,4 @@ execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%a
 #window_border_color = green
 #
 #active_window_border = red
-#
-
+# 
