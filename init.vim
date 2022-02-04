@@ -49,5 +49,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vimwiki/vimwiki'
 Plug 'chrisbra/Colorizer'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
