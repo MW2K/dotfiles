@@ -1,17 +1,25 @@
-let mapleader ="\\"
+source $HOME/.config/nvim/themes/fogbell.vim
+let mapleader="\\"
 
-set mouse=a
-set number
-set nocompatible
-syntax on
+set termguicolors
 set encoding=utf-8
-filetype plugin on
-set linebreak
-set wrap
+set fileencoding=utf-8
+set ruler
+set mouse=a
+set laststatus=2
+set number
+set cursorline
 set clipboard=unnamedplus
-set hlsearch
 set ignorecase
-set termguicolors 
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set smartindent
+set autoindent
+set spell!
+set spelllang=en_au
+set formatoptions-=cro
 
 map <leader>s :setlocal spell! spelllang=en_au
 
