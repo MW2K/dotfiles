@@ -47,6 +47,7 @@ alias update='sudo pacman -Syu'
 alias co='cd /home/peter/.config'
 alias lo='cd /home/peter/.local'
 alias ff='fastfetch && fortune quotes'
+alias code='cd /home/peter/Nextcloud/code'
 
 # Get fastest mirrors
 alias mirror="sudo cachyos-rate-mirrors"
@@ -65,9 +66,9 @@ export VISUAL='nvim'
 export EDITOR='nvim'
 
 # PATH addenda
-export PATH=/home/peter/.local/bin:$PATH
+export PATH=/home/peter/.local/bin:/home/peter/.nimble/bin:$PATH
 
 # PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
-starship preset gruvbox-rainbow -o ~/.config/starship.toml
+# starship preset gruvbox-rainbow -o ~/.config/starship.toml
