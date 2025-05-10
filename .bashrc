@@ -11,7 +11,7 @@
 # '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
 # ~/.bashrc
 #
-# Most of these are from CachyOS's default install but I've added a few and removed a few
+# Most of these are from CachyOS's default install but I've added a few and removed a few. Edit, moved to pure Arch, removed references to CachyOS
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -48,9 +48,6 @@ alias co='cd /home/peter/.config'
 alias lo='cd /home/peter/.local'
 alias ff='fastfetch && fortune quotes'
 alias code='cd /home/peter/Nextcloud/code'
-
-# Get fastest mirrors
-alias mirror="sudo cachyos-rate-mirrors"
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
