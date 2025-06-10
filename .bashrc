@@ -48,6 +48,7 @@ alias co='cd /home/peter/.config'
 alias lo='cd /home/peter/.local'
 alias ff='fastfetch && fortune quotes'
 alias code='cd /home/peter/Nextcloud/code'
+alias httpd='sudo systemctl reload httpd.service'
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
