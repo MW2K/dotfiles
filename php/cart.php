@@ -74,8 +74,8 @@ echo $user['name']; ?>'s Shopping Cart</h1>
                 <?php
                 $servername = "localhost";
                 $username = "peter";
-                $password = "root";
-                $dbname = "mydb";
+                $password = "xxx";
+                $dbname = "xxx";
 
                 // Create connection
                 $conn = 
