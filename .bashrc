@@ -64,7 +64,7 @@ export VISUAL='nvim'
 export EDITOR='nvim'
 
 # PATH addenda
-export PATH=/home/peter/.local/bin:/home/peter/.nimble/bin:$PATH
+export PATH=/home/peter/.local/bin:/home/peter/.nimble/bin:/home/peter/.config/composer/vendor/bin:$PATH
 
 # PS1='[\u@\h \W]\$ '
 
