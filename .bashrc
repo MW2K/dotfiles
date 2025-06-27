@@ -46,9 +46,10 @@ alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'          # List amount of -gi
 alias update='sudo pacman -Syu'
 alias co='cd /home/peter/.config'
 alias lo='cd /home/peter/.local'
+alias srv='cd /srv/http/defaults/public'
 alias ff='fastfetch && fortune quotes'
 alias code='cd /home/peter/Nextcloud/code'
-alias httpd='sudo systemctl reload httpd.service'
+alias httpd='sudo systemctl restart php-fpm.service && sudo systemctl restart nginx.service'
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
