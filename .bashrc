@@ -47,6 +47,7 @@ alias lo='cd /home/peter/.local'
 alias srv='cd /srv/http/defaults/public'
 alias ff='fastfetch && fortune quotes'
 alias code='cd /home/peter/Nextcloud/code'
+alias web="cd /home/peter/Nextcloud/websites"
 alias httpd='sudo systemctl restart php-fpm.service && sudo systemctl restart nginx.service'
 
 # Cleanup orphaned packages
