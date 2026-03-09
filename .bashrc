@@ -25,9 +25,9 @@ alias ll='eza -la --color=always --group-directories-first --icons'  # long form
 alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l.="eza -a | grep -e '^\.'"   # show only dotfiles
 alias grep='grep --color=auto'
-alias co='cd /home/hank/.config'
-alias lo='cd /home/hank/.local'
-alias srv='/home/hank/dev/myapp/public/'
+alias co='cd /home/peter/.config'
+alias lo='cd /home/peter/.local'
+alias srv='/home/peter/dev/myapp/public/'
 alias jctl="journalctl -p 3 -xb"
 alias doc="asciidoctor -a linkcss -a copycss"
 
@@ -35,7 +35,7 @@ alias doc="asciidoctor -a linkcss -a copycss"
 export VISUAL='nvim'
 export EDITOR='nvim'
 export SYSTEMD_LESS=FRXMK # journalctl entries wrap properly in the terminal
-export PATH=/home/hank/.local/bin:/home/hank/.nimble/bin:$PATH
+export PATH=/home/peter/.local/bin:/home/peter/.nimble/bin:$PATH
 export WINETRICKS_LATEST_VERSION_CHECK=enabled
 
 
