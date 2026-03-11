@@ -27,7 +27,7 @@ alias l.="eza -a | grep -e '^\.'"   # show only dotfiles
 alias grep='grep --color=auto'
 alias co='cd /home/peter/.config'
 alias lo='cd /home/peter/.local'
-alias srv='/home/peter/dev/myapp/public/'
+alias srv='cd /home/peter/dev/myapp/public/'
 alias jctl="journalctl -p 3 -xb"
 alias doc="asciidoctor -a linkcss -a copycss"
 
