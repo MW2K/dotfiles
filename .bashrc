@@ -30,6 +30,9 @@ alias lo='cd /home/peter/.local'
 alias srv='cd /home/peter/dev/myapp/public/'
 alias jctl="journalctl -p 3 -xb"
 alias doc="asciidoctor -a linkcss -a copycss"
+alias vim='nvim'
+alias vi='nvim'
+alias oldvim='vim'  # To access original Vim if needed
 
 # Environment variables
 export VISUAL='nvim'
