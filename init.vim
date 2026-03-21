@@ -1,4 +1,3 @@
-source $HOME/.config/nvim/themes/seti.vim
 let mapleader="\\"
 
 set termguicolors
