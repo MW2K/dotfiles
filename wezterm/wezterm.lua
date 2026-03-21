@@ -15,7 +15,7 @@ config.window_background_opacity = 0.9
 
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Catppuccin Latte'
+config.color_scheme = 'Gruvbox Material (Gogh)'
 
 -- and finally, return the configuration to wezterm
 return config
